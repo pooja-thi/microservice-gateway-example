@@ -1,0 +1,36 @@
+{
+  "gatewayApp": {
+    "publicationBook": {
+      "home": {
+        "title": "Books",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Book",
+        "createOrEditLabel": "Create or edit a Book",
+        "notFound": "No Books found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Book {{ id }}?"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "title": "Title",
+      "author": "Author",
+      "keywords": "Keywords",
+      "description": "Description",
+      "rating": "Rating",
+      "dateAdded": "Date Added",
+      "dateModified": "Date Modified",
+      "image": "Image",
+      "category": "Category"
+    }
+  },
+  "publicationApp": {
+    "publicationBook": {
+      "created": "A new Book is created with identifier {{ param }}",
+      "updated": "A Book is updated with identifier {{ param }}",
+      "deleted": "A Book is deleted with identifier {{ param }}"
+    }
+  }
+}

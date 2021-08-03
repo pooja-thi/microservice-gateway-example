@@ -1,0 +1,33 @@
+{
+  "gatewayApp": {
+    "userAddress": {
+      "home": {
+        "title": "Addresses",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Address erstellen",
+        "createOrEditLabel": "Address erstellen oder bearbeiten",
+        "notFound": "Keine Addresses gefunden"
+      },
+      "delete": {
+        "question": "Soll Address {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Address"
+      },
+      "id": "ID",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "postcode": "Postcode",
+      "country": "Country",
+      "customer": "Customer"
+    }
+  },
+  "userApp": {
+    "userAddress": {
+      "created": "Address erstellt mit ID {{ param }}",
+      "updated": "Address aktualisiert mit ID {{ param }}",
+      "deleted": "Address gelöscht mit ID {{ param }}"
+    }
+  }
+}

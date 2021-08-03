@@ -1,0 +1,34 @@
+{
+  "gatewayApp": {
+    "publicationCategory": {
+      "home": {
+        "title": "Categories",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Category erstellen",
+        "createOrEditLabel": "Category erstellen oder bearbeiten",
+        "notFound": "Keine Categories gefunden"
+      },
+      "delete": {
+        "question": "Soll Category {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Category"
+      },
+      "id": "ID",
+      "description": "Description",
+      "sortOrder": "Sort Order",
+      "dateAdded": "Date Added",
+      "dateModified": "Date Modified",
+      "status": "Status",
+      "parent": "Parent",
+      "book": "Book"
+    }
+  },
+  "publicationApp": {
+    "publicationCategory": {
+      "created": "Category erstellt mit ID {{ param }}",
+      "updated": "Category aktualisiert mit ID {{ param }}",
+      "deleted": "Category gelöscht mit ID {{ param }}"
+    }
+  }
+}

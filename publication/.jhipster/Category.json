@@ -1,0 +1,56 @@
+{
+  "name": "Category",
+  "fields": [
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sortOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateAdded",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateModified",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "CategoryStatus",
+      "fieldValues": "AVAILABLE,BORROWED,DISABLED"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "category",
+      "otherEntityRelationshipName": "category",
+      "relationshipName": "parent"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "book",
+      "otherEntityRelationshipName": "category",
+      "relationshipName": "book",
+      "otherEntityField": "title",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "category",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["gateway", "publication"],
+  "microserviceName": "publication",
+  "clientRootFolder": "publication",
+  "databaseType": "sql",
+  "changelogDate": "20210803093706"
+}
